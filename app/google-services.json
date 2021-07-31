@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "667493146594",
+    "firebase_url": "https://priyadarshini-engg-colle-24abd-default-rtdb.firebaseio.com",
+    "project_id": "priyadarshini-engg-colle-24abd",
+    "storage_bucket": "priyadarshini-engg-colle-24abd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667493146594:android:1a3d9bb9e2d5d924d623bb",
+        "android_client_info": {
+          "package_name": "com.pec.priyadarshiniengineeringcollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667493146594-np5utvqaq1v702igalkcq5iaf8s6dip7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pec.priyadarshiniengineeringcollegeapp",
+            "certificate_hash": "0175d6766572abdba61be94ca974750c73214338"
+          }
+        },
+        {
+          "client_id": "667493146594-e5jjrii1snl59camcjhqccd9u7sruc6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf-2zX94OrzDC4DJJWft91cLcjXdj5mAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667493146594-e5jjrii1snl59camcjhqccd9u7sruc6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

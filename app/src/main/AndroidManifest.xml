@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pec.priyadarshiniengineeringcollegeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.AdminLogin" />
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.AdminDashboard" />
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.FullImageView" />
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.PDFViewer" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.ManageCorrespondent"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.AdminDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.ManagePrincipal"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.AdminDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AddCorrespondent"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.ManageCorrespondent" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AboutPEC"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.UpdatePrincipal"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.ManagePrincipal" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AddPrincipal"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.ManagePrincipal" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.UpdateCorrespondent"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.ManageCorrespondent" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AboutDeveloper"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesMCA"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesMBA"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesMechanical"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesCivil"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesEEE"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesECE"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotesCSE"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesMCA"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesMBA"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesMechanical"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesCivil"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesEEE"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesECE"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotesCSE"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotes" />
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.TeacherLogin" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.TimeTableEdit"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TimeTable" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.TimeTable"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.UpdateFaculty"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.ManageFaculty" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.ContactUs"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DownloadNotes"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.Gallery"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.Faculty"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.NewsFeed"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.MainActivity" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.ManageGallery"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AddGallery"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AddNotes"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.DeleteNotice"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AddNotice"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.AddFaculty"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.AdminDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.ManageFaculty"
+            android:parentActivityName="com.pec.priyadarshiniengineeringcollegeapp.AdminDashboard" />
+        <activity android:name="com.pec.priyadarshiniengineeringcollegeapp.TeacherDashboard" />
+        <activity
+            android:name="com.pec.priyadarshiniengineeringcollegeapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

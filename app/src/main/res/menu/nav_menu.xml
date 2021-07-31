@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+
+        <item
+            android:id="@+id/nav_time_table"
+            android:title="Time Table"
+            android:icon="@drawable/time_table_icon"/>
+
+        <item
+            android:id="@+id/nav_newsfeed"
+            android:title="Newsfeed"
+            android:icon="@drawable/news_icon"/>
+
+        <item
+            android:id="@+id/nav_download_notes"
+            android:title="Download Notes"
+            android:icon="@drawable/download_notes_icon"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_pec"
+            android:title="About PEC"
+            android:icon="@drawable/about_us_icon"/>
+
+        <item
+            android:id="@+id/nav_faculty"
+            android:title="Faculty"
+            android:icon="@drawable/faculty_icon"/>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Gallery"
+            android:icon="@drawable/gallery_icon"/>
+
+    </group>
+
+    <item
+        android:title="Login">
+
+        <menu>
+            <group
+                android:id="@+id/group3"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_faculty_login"
+                    android:title="Faculty Login"
+                    android:icon="@drawable/lock_icon"/>
+
+                <item
+                    android:id="@+id/nav_admin_login"
+                    android:title="Admin Login"
+                    android:icon="@drawable/lock_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Download">
+
+        <menu>
+            <group
+                android:id="@+id/group4"
+                android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_gpa_app"
+                android:title="GPA CGPA Calculator"
+                android:icon="@drawable/download_gpa_app_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_developer"
+            android:title="About Developer"
+            android:icon="@drawable/person_icon"/>
+
+        <item
+            android:id="@+id/nav_rate_app"
+            android:title="Rate App"
+            android:icon="@drawable/rate_icon"/>
+
+        <item
+            android:id="@+id/nav_share_app"
+            android:title="Share App"
+            android:icon="@drawable/share_icon"/>
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/email_icon"/>
+    </group>
+
+</menu>
